@@ -2,7 +2,7 @@
 
 
 //import { MobileMenu } from "./MobileMenu";
-//import { DesktopMenu } from "./DesktopMenu";
+import { DesktopMenu } from "./DesktopMenu";
 //import { BottomNavigation } from "./BottomNavigation";
 
 //import { useMediaQuery } from "react-responsive";
