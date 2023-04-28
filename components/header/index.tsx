@@ -20,5 +20,9 @@ import { DesktopMenu } from "./DesktopMenu"
 export function Header() {
   // const isMobile = useMediaQuery({ maxWidth: 767 });
 
-  return <DesktopMenu />
+  return (
+    <>
+      <DesktopMenu />
+    </>
+  )
 }
