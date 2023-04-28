@@ -1,7 +1,8 @@
-"use client"
+'use client';
 
+import { BottomNavigation } from '../BottomNavigation';
 //import { MobileMenu } from "./MobileMenu";
-import { DesktopMenu } from "./DesktopMenu"
+import { DesktopMenu } from './DesktopMenu';
 
 //import { BottomNavigation } from "./BottomNavigation";
 
@@ -23,6 +24,7 @@ export function Header() {
   return (
     <>
       <DesktopMenu />
+      <BottomNavigation />
     </>
-  )
+  );
 }
