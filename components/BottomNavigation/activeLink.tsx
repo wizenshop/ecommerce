@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Link, { LinkProps } from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -11,7 +13,7 @@ export function ActiveLink({ href, children, ...res }: ActiveLinkProps) {
   const pathName = usePathname();
   const isCurrentPath = pathName == href;
 
-  const linkClasses = clsx('text-colorDefaultMenuIcon', {
+  const linkClasses = clsx({
     'text-colorActiveMenuIcon': isCurrentPath,
   });
 
