@@ -47,12 +47,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <div className="relative flex min-h-screen flex-col pb-10">
+              <Header />
               <div className="flex-1">
                 <ButtonWhatsapp />
                 {children}
               </div>
-
-              <Header />
             </div>
             <TailwindIndicator />
           </ThemeProvider>
