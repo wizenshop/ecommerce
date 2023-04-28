@@ -11,6 +11,7 @@ import { ButtonWhatsapp } from '@/components/ButtonWhatsapp/';
 import { TailwindIndicator } from '@/components/tailwind-indicator';
 import { ThemeProvider } from '@/components/theme-provider';
 import { BottomNavigation } from '@/components/BottomNavigation';
+import { Header } from '@/components/header';
 
 export const metadata: Metadata = {
   title: {
@@ -53,7 +54,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 {children}
               </div>
 
-              <BottomNavigation />
+             <Header/>
             </div>
             <TailwindIndicator />
           </ThemeProvider>
