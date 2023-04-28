@@ -1,11 +1,11 @@
 "use client";
 
 
-import { MobileMenu } from "./MobileMenu";
-import { DesktopMenu } from "./DesktopMenu";
-import { BottomNavigation } from "./BottomNavigation";
+//import { MobileMenu } from "./MobileMenu";
+//import { DesktopMenu } from "./DesktopMenu";
+//import { BottomNavigation } from "./BottomNavigation";
 
-import { useMediaQuery } from "react-responsive";
+//import { useMediaQuery } from "react-responsive";
 
 /**
  *  {isMobile ? (
