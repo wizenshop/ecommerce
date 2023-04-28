@@ -10,5 +10,6 @@ export function Layout({ children }: LayoutProps) {
       <SiteHeader />
       <main>{children}</main>
     </>
+    
   )
 }

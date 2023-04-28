@@ -18,7 +18,7 @@ const activeItemStyles = {
 
 export function BottomNavigation() {
   return (
-    <header className="fixed bottom-0 z-40 w-full border-b bg-background">
+    <header className="fixed bottom-0 z-40 w-full border-b bg-background shadow-md h-shadow-gray-dark">
       <div className="flex flex-1 items-center justify-center">
         <nav className="flex items-center justify-center gap-10">
           <div
