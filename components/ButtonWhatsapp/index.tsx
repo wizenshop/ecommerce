@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React, { Suspense } from "react";
+import React, { Suspense } from 'react';
 
-import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 export function ButtonWhatsapp() {
   return (
@@ -10,8 +10,8 @@ export function ButtonWhatsapp() {
       <FloatingWhatsApp
         phoneNumber="85987520858"
         accountName="Online"
-        buttonStyle={{bottom: "5rem"}}
-        style={{height: "3rem",width:"3rem",position:"relative"}}
+        buttonStyle={{ bottom: '5rem' }}
+        style={{ height: '3rem', width: '3rem', position: 'relative' }}
         chatMessage="Óla"
         placeholder="Digite uma mensagem.."
         allowEsc
