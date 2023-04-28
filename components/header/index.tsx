@@ -1,8 +1,8 @@
-"use client";
-
+"use client"
 
 //import { MobileMenu } from "./MobileMenu";
-import { DesktopMenu } from "./DesktopMenu";
+import { DesktopMenu } from "./DesktopMenu"
+
 //import { BottomNavigation } from "./BottomNavigation";
 
 //import { useMediaQuery } from "react-responsive";
@@ -18,11 +18,7 @@ import { DesktopMenu } from "./DesktopMenu";
       )}
  */
 export function Header() {
- // const isMobile = useMediaQuery({ maxWidth: 767 });
+  // const isMobile = useMediaQuery({ maxWidth: 767 });
 
-  return (
-    <>
-     <DesktopMenu />
-    </>
-  );
+  return <DesktopMenu />
 }
