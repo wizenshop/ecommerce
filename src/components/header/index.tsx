@@ -10,10 +10,10 @@ import { BottomNavigation } from '../BottomNavigation';
 import { MobileMenu } from './MobileMenu';
 import { DesktopMenu } from './DesktopMenu';
 
-import { useMediaQuery } from 'react-responsive';
+import useIsMobile from '@/hooks/useIsMobile';
 
 export function Header() {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isMobile =  useIsMobile();
 
   /*
     {isMobile ? (
