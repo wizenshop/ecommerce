@@ -62,23 +62,3 @@ export default async function Post({ params }: ProductsProps) {
   );
 }
 
-export async function fetchSingleBlogPost(slug: string): Promise<any> {
-  const p = await getSingleBlogPost(slug);
-
-  if (!p) {
-    throw new Error('No results available');
-  }
-
-  return p;
-}
-
-export async function fetchPublishedBlogPosts(): Promise<any[]> {
-  const posts = await getPublishedBlogPosts();
-  return posts;
-}
-
-export async function getPostProps(slug: string): Promise<PostPage> {
-  const markdown = await fetchSingleBlogPost(slug);
-  const post = await fetchPublishedBlogPosts();
-  return { markdown, post };
-}
