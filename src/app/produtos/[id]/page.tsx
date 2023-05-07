@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 interface ProductsProps {
   params: {
     id: string;
