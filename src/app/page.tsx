@@ -1,9 +1,9 @@
 import Link from 'next/link';
+import SliderBanners from '../components/sliderBanners';
+import { siteConfig } from '../config/site';
+import { buttonVariants } from '../components/ui/button';
 
-import { siteConfig } from '@/config/site';
-import { buttonVariants } from '@/components/ui/button';
-import { DesktopMenu } from '@/components/header/DesktopMenu';
-import SliderBanners from '@/components/sliderBanners';
+
 
 export default function IndexPage() {
   return (

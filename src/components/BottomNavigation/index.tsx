@@ -2,15 +2,11 @@ import Link from 'next/link';
 
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 
-import { siteConfig } from '@/config/site';
-import { buttonVariants } from '@/components/ui/button';
-import { Icons } from '@/components/icons';
-import { MainNav } from '@/components/main-nav';
-
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { FiShoppingBag } from 'react-icons/fi';
 import { ActiveLink } from '../BottomNavigation/activeLink';
+import { buttonVariants } from '../ui/button';
 
 const activeItemStyles = {
   color: '$colorActiveMenuIcon',

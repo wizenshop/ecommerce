@@ -2,18 +2,14 @@
 
 import Link from 'next/link';
 
-import { siteConfig } from '@/config/site';
-import { buttonVariants } from '@/components/ui/button';
-import { MainNav } from '@/components/main-nav';
 
 import { BottomNavigation } from '../BottomNavigation';
 import { MobileMenu } from './MobileMenu';
 import { DesktopMenu } from './DesktopMenu';
-
-import useIsMobile from '@/hooks/useIsMobile';
+import useIsMobile from '@/src/hooks/useIsMobile';
 
 export function Header() {
-  const isMobile =  useIsMobile();
+  const isMobile = useIsMobile();
 
   /*
     {isMobile ? (
